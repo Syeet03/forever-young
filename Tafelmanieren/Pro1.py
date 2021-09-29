@@ -1,4 +1,6 @@
 # Ik heb hier de tafel van 7 gebruikt
 
-for i in range(0,11):
-    print(i * 7)
+x = int(input('Kies je nummer: '))
+
+for i in range(1,11):
+    print(i * x)
